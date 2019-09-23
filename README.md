@@ -65,6 +65,7 @@ Using [flex box](https://facebook.github.io/react-native/docs/flexbox) to manage
 * section List for pics by date
 * looking into react native componenet [libraries](https://blog.bitsrc.io/11-react-native-component-libraries-you-should-know-in-2018-71d2a8e33312)
 
+[React Native Elements](https://react-native-training.github.io/react-native-elements/docs/getting_started.html)
 [scroll view](https://facebook.github.io/react-native/docs/scrollview.html) to render the list  
 
 

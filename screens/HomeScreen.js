@@ -11,6 +11,7 @@ import {
 } from 'react-native';
 
 import { MonoText } from '../components/StyledText';
+import PlantCard from '../components/PlantCard';
 
 export default function HomeScreen() {
   return (
@@ -25,6 +26,9 @@ export default function HomeScreen() {
           style={styles.welcomeImage}
           />
         </View>
+        <PlantCard>
+          
+        </PlantCard>
       </ScrollView>
     </View>
   );
