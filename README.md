@@ -7,20 +7,20 @@ Sprouter is an Android journaling app for plant lovers to document the growth an
 
 
 ## Minimum Viable Product (MVP)
-For Sprouter to be a useful journalling app, the following specifications define the MVP.
-* 
-* 
-* A user can add notes about their plants.
-* A user can have multiple plant journals and see the notes for a particular plant.
-* 
+For Sprouter to be a useful journalling app, the following features define the MVP.
+* Users can create a journal for each plant they want to track. 
+* Users can have multiple plant journals and see the notes and photos for a particular plant.
+* The app Home screen will display all of the user's plant journals. 
+* Users can add photos to their journal by tapping on the "plus" button.
+* Users can add notes about their plants.
+
 
 ## Beyond MVP
 * It would be ideal if users can upload pictures of their plants to go along with the text.
-* Host app
+* Host app, publish on Google Play Store
 * Limit image size  -- or total image sizes
 * Cost and scalability analysis
 * Responsive UI design
-* Mobile friendly
 * PC to phone sync
 * Accessibility 
 * Users can have multiple “books/channels” for journaling about each plant. 
@@ -29,24 +29,22 @@ For Sprouter to be a useful journalling app, the following specifications define
 * Add tags for user to search their plants
 * Make stories for plants, like before and after to show plant growth.
 * Connect with Google Photos 
-* Add reminders --- twilio API to send texts or emails.
+* Add reminders
 * Create outdoor plant tag that is linked with weather API
 
 ## Technologies
 `MVP`
-* React
+* React Native
 * Redux
-* JavaScript, JSX
-* AWS S3
-* HTML
+* JavaScript
+* Expo
 * CSS
-* Bootstrap
 * Adobe XD for UI design <br>
 `Beyond MVP` 
 * Hosting app
 * User Authentication
 * Identity
-* Twilio API
+* Weather API
 
 ## Design
 These are rough mockups showing the general flow off the app. The full prototype can be experienced [here](https://xd.adobe.com/view/8783e05f-7a8e-45e8-4968-4bc4bbb9d99a-f1b2/), hosted by Adobe XD.
