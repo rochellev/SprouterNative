@@ -20,7 +20,7 @@ const HomeStack = createStackNavigator(
 );
 
 HomeStack.navigationOptions = {
-  tabBarLabel: 'Home',
+  tabBarLabel: 'MyPlants',
   tabBarIcon: ({ focused }) => (
     <TabBarIcon
       focused={focused}
@@ -67,6 +67,7 @@ SettingsStack.navigationOptions = {
 
 SettingsStack.path = '';
 
+// the nav icons at the bottom
 const tabNavigator = createBottomTabNavigator({
   HomeStack,
   LinksStack,
@@ -75,4 +76,5 @@ const tabNavigator = createBottomTabNavigator({
 
 tabNavigator.path = '';
 
+// saw app containter export default createAppContainer(TabNavigator);
 export default tabNavigator;

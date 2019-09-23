@@ -54,6 +54,8 @@ These are rough mockups showing the general flow off the app. The full prototype
 ![sprouter plant profile page](src/img/mockup/plantProfile.jpg)
 ![notes view on click photo](src/img/mockup/onClickPlantPicShowNotes.jpg)
 
+
+
 ## Available Scripts
 
 In the project directory, you can run:
