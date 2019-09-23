@@ -63,6 +63,7 @@ The home screen will display all of a user's plant journals. Flexbox and ScrollV
 Using [flex box](https://facebook.github.io/react-native/docs/flexbox) to manage the layouts.
 * do column for top to bottom
 * section List for pics by date
+* looking into react native componenet [libraries](https://blog.bitsrc.io/11-react-native-component-libraries-you-should-know-in-2018-71d2a8e33312)
 
 [scroll view](https://facebook.github.io/react-native/docs/scrollview.html) to render the list  
 
