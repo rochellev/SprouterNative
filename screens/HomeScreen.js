@@ -19,13 +19,12 @@ export default function HomeScreen() {
       <ScrollView
         style={styles.container}
         contentContainerStyle={styles.contentContainer}>
-        
         <View style={styles.welcomeContainer}>
           <Image 
           source={require('../assets/images/plant.png')}
-          style={styles.welcomeImage}
-          />
+          style={styles.welcomeImage} />
         </View>
+
         <PlantCard>
           
         </PlantCard>

@@ -7,7 +7,7 @@ Sprouter is an Android journaling app for plant lovers to document the growth an
 
 
 ## Minimum Viable Product (MVP)
-For Sprouter to be a useful journalling app, the following features define the MVP.
+For Sprouter to be a useful journaling app, the following features define the MVP.
 * Users can create a journal for each plant they want to track. 
 * Users can have multiple plant journals and see the notes and photos for a particular plant.
 * The app Home screen will display all of the user's plant journals. 
@@ -24,6 +24,7 @@ For Sprouter to be a useful journalling app, the following features define the M
 * Cost and scalability analysis
 * Responsive UI design
 * PC to phone sync
+* Expo has support for facebook login
 * Accessibility 
 * Users can have multiple “books/channels” for journaling about each plant. 
 * User authentication
@@ -51,18 +52,20 @@ For Sprouter to be a useful journalling app, the following features define the M
 ## Design
 These are rough mockups showing the general flow off the app. The full prototype can be experienced [here](https://xd.adobe.com/view/8783e05f-7a8e-45e8-4968-4bc4bbb9d99a-f1b2/), hosted by Adobe XD.
 
-![sprouter home page](assets/images/mockup/home_screen.jpg)
+### Splash Screen
+The splash screen will appear on opening the app. It will set the theme of the app. <br>
+![sprouter splash page](assets/images/mockup/splash_screen.jpg)
 
 
 ### Home Screen
-The home screen will display all of a user's plant journals. Users can quick add entries on this screen. Flexbox and ScrollView. 
-![sprouter splash page](assets/images/mockup/splash_screen.jpg)
+After the splash screen, users will be routed to the home screen. This is where the app will display all of a user's plant journals. Users can quick add entries on this screen. Flexbox and ScrollView. <br>
+![sprouter home page](assets/images/mockup/home_screen.jpg)
 
 ### Plant Profile Screen
 Each plant will have a profile page. Users can see the full history of the plant, add more photos and notes.
 
 ### Settings Page
-A place for users to manage notifications and general settings
+A place for users to manage notifications and general settings. 
 
 ### Navigation Style
 Users can quickly navigate between the home, plant profiles and settings page by tapping on on the navigation tab at the bottom of the screen.
@@ -82,26 +85,8 @@ Using [flex box](https://facebook.github.io/react-native/docs/flexbox) to manage
 
 In the project directory, you can run:
 
+### `npm install`
+This installs all the project dependencies.
+
 ### `npm start`
-
-Runs the app in the development mode.<br>
-Open the Expo page.
-
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-
-
+Runs the app in the development mode. 
