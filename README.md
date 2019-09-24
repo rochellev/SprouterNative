@@ -17,6 +17,8 @@ For Sprouter to be a useful journalling app, the following features define the M
 
 ## Beyond MVP
 * It would be ideal if users can upload pictures of their plants to go along with the text.
+* Use phone camera 
+* Use phone storage
 * Host app, publish on Google Play Store
 * Limit image size  -- or total image sizes
 * Cost and scalability analysis
@@ -49,20 +51,28 @@ For Sprouter to be a useful journalling app, the following features define the M
 ## Design
 These are rough mockups showing the general flow off the app. The full prototype can be experienced [here](https://xd.adobe.com/view/8783e05f-7a8e-45e8-4968-4bc4bbb9d99a-f1b2/), hosted by Adobe XD.
 
-![sprouter splash page](assets/images/mockup/splash_screen.jpg)
 ![sprouter home page](assets/images/mockup/home_screen.jpg)
 
 
+### Home Screen
+The home screen will display all of a user's plant journals. Users can quick add entries on this screen. Flexbox and ScrollView. 
+![sprouter splash page](assets/images/mockup/splash_screen.jpg)
 
-### Home Page
-The home screen will display all of a user's plant journals. Flexbox and ScrollView. 
+### Plant Profile Screen
+Each plant will have a profile page. Users can see the full history of the plant, add more photos and notes.
 
+### Settings Page
+A place for users to manage notifications and general settings
+
+### Navigation Style
+Users can quickly navigate between the home, plant profiles and settings page by tapping on on the navigation tab at the bottom of the screen.
 
 ## Resources
 Using [flex box](https://facebook.github.io/react-native/docs/flexbox) to manage the layouts.
 * do column for top to bottom
 * section List for pics by date
 * looking into react native componenet [libraries](https://blog.bitsrc.io/11-react-native-component-libraries-you-should-know-in-2018-71d2a8e33312)
+* A [guide](https://www.reactnative.guide/5-project-structure-and-start-building-some-app/5.2-basic-components-and-platform-specific-code.html)
 
 [React Native Elements](https://react-native-training.github.io/react-native-elements/docs/getting_started.html)
 [scroll view](https://facebook.github.io/react-native/docs/scrollview.html) to render the list  
