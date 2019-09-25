@@ -17,17 +17,17 @@ export default function HomeScreen() {
   return (
     <View style={styles.container}>
       <ScrollView
+        scrollEventThrottle={16}
         style={styles.container}
         contentContainerStyle={styles.contentContainer}>
         <View style={styles.welcomeContainer}>
-          <Image 
-          source={require('../assets/images/plant.png')}
-          style={styles.welcomeImage} />
+          <Image
+            source={require('../assets/images/plant.png')}
+            style={styles.welcomeImage} />
         </View>
 
-        <PlantCard>
-          
-        </PlantCard>
+        <PlantCard />
+
       </ScrollView>
     </View>
   );
