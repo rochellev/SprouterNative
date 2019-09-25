@@ -27,6 +27,9 @@ HomeStack.navigationOptions = {
       name={`ios-heart${focused ? '' : '-empty'}`}
     />
   ),
+  tabBarOptions: {
+    style: {backgroundColor: 'white', borderTopWidth: 0, shadowColor: 'black', shadowOffset:{width: 5, height: 3}, shadowOpacity: 0.5, elevation: 10}
+  }
 };
 
 HomeStack.path = '';
@@ -71,6 +74,7 @@ const tabNavigator = createBottomTabNavigator({
 });
 
 tabNavigator.path = '';
+
 
 // saw app containter export default createAppContainer(TabNavigator);
 export default tabNavigator;
