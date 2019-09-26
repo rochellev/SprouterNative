@@ -1,5 +1,5 @@
 # Sprouter
-## Rochelle Roberts <br>
+## Rochelle Roberts | [LinkedIn](https://www.linkedin.com/in/rochelle-roberts) <br>
 
 
 ## Description
@@ -42,7 +42,8 @@ For Sprouter to be a useful journaling app, the following features define the MV
 * JavaScript
 * Expo
 * CSS
-* Adobe XD for UI design <br>
+* Adobe XD for UI design
+<br>
 `Beyond MVP` 
 * Hosting app
 * User Authentication
@@ -50,7 +51,7 @@ For Sprouter to be a useful journaling app, the following features define the MV
 * Weather API
 
 ## Design
-These are rough mockups showing the general flow off the app. The full prototype can be experienced [here](https://xd.adobe.com/view/8783e05f-7a8e-45e8-4968-4bc4bbb9d99a-f1b2/), hosted by Adobe XD.
+These are rough mockups showing the general design and flow of the app.
 
 ### Splash Screen
 The splash screen will appear on opening the app. It will set the theme of the app. <br>
@@ -70,23 +71,23 @@ A place for users to manage notifications and general settings.
 ### Navigation Style
 Users can quickly navigate between the home, plant profiles and settings page by tapping on on the navigation tab at the bottom of the screen.
 
+
+## Installing and Running Sprouter
+From the project's root directory, run the following commands:
+
+```sh
+$ git clone https://github.com/rochellev/SprouterNative.git
+$ cd  ./SprouterNative
+$ npm install
+$ npm run
+```
+
+After running the app, scan the QR code displayed in the terminal with the Expo app (Android) or the Camera app (iOS). Select `Tunnel` connection type on the Expo DevTool [localhost](http://localhost:19002/) if your device is not connected to the same network as your computer. Enjoy!
+
 ## Resources
-Using [flex box](https://facebook.github.io/react-native/docs/flexbox) to manage the layouts.
-* do column for top to bottom
-* section List for pics by date
+* Using [flex box](https://facebook.github.io/react-native/docs/flexbox) to manage the layouts.
 * looking into react native component [libraries](https://blog.bitsrc.io/11-react-native-component-libraries-you-should-know-in-2018-71d2a8e33312)
 * A [guide](https://www.reactnative.guide/5-project-structure-and-start-building-some-app/5.2-basic-components-and-platform-specific-code.html)
 
-[React Native Elements](https://react-native-training.github.io/react-native-elements/docs/getting_started.html)
-[scroll view](https://facebook.github.io/react-native/docs/scrollview.html) to render the list  
-
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm install`
-This installs all the project dependencies.
-
-### `npm start`
-Runs the app in the development mode. 
+* [React Native Elements](https://react-native-training.github.io/react-native-elements/docs/getting_started.html)
+* [scroll view](https://facebook.github.io/react-native/docs/scrollview.html) to render the list  
