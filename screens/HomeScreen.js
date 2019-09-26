@@ -25,9 +25,12 @@ export default function HomeScreen() {
             source={require('../assets/images/plant.png')}
             style={styles.welcomeImage} />
         </View>
-
-        <PlantCard imageSource={require('../assets/images/plant.png')} plantNote="hi buddy" />
-
+        <View>
+        <PlantCard imageSource={require('../assets/images/plants/lemon_flower.jpg')} plantNote="Lemon tree Bloomed!" />
+        <PlantCard imageSource={require('../assets/images/plants/money_tree.jpg')} plantNote="Money Tree really growing fast" />
+        <PlantCard imageSource={require('../assets/images/plants/white_flower.jpg')} plantNote="starting to turn a little purple" />
+        <PlantCard imageSource={require('../assets/images/plants/lady.jpg')} plantNote="Lady still doing well" />
+        </View>
       </ScrollView>
     </View>
   );
