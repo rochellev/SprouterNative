@@ -1,6 +1,7 @@
 # Sprouter
-## Rochelle Roberts | [LinkedIn](https://www.linkedin.com/in/rochelle-roberts) <br>
-
+### Rochelle Roberts | [LinkedIn](https://www.linkedin.com/in/rochelle-roberts)
+<br>
+<br>
 
 ## Description
 Sprouter is an Android journaling app for plant lovers to document the growth and life of their plants. New growth! I created this app to explore React and to combine my love of plants with my passion for programming.

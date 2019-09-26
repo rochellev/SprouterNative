@@ -1,13 +1,13 @@
 import React from 'react';
 import { Text } from 'react-native';
 import { Card, Button, Icon } from 'react-native-elements';
-import { Ionicons } from '@expo/vector-icons';
+import { setRecoveryProps } from 'expo/build/ErrorRecovery/ErrorRecovery';
 
-export default function PlantCard() {
+export default function PlantCard(props) {
   return (
-    <Card title='plant' raised='true' image={require('../assets/images/plant.png')}>
+    <Card title='plant' raised='true' image={props.imageSource}>
       <Text>
-        something about the text
+        {props.plantNote}
             </Text>
       <Button
         icon={<Icon name='add-circle-outline' />}

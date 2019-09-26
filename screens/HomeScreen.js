@@ -26,7 +26,7 @@ export default function HomeScreen() {
             style={styles.welcomeImage} />
         </View>
 
-        <PlantCard />
+        <PlantCard imageSource={require('../assets/images/plant.png')} plantNote="hi buddy" />
 
       </ScrollView>
     </View>
