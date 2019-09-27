@@ -55,7 +55,7 @@ For Sprouter to be a useful journaling app, the following features define the MV
 * Weather API
 
 ## Design
-These are rough mockups showing the general design and flow of the app.
+These mockups, created with Adobe XD, show the general design and flow of Sprouter. 
 
 ### Splash Screen
 The splash screen will appear on opening the app. It will set the theme of the app. <br>
