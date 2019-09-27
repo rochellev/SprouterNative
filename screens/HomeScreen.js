@@ -17,7 +17,7 @@ export default function HomeScreen() {
   return (
     <View style={styles.container}>
       <ScrollView
-        scrollEventThrottle={16}
+        
         style={styles.container}
         contentContainerStyle={styles.contentContainer}>
         <View style={styles.welcomeContainer}>

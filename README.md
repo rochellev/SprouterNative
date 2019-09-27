@@ -4,7 +4,7 @@
 <br>
 
 ## Description
-Sprouter is an Android journaling app for plant lovers to document the growth and life of their plants. New growth! I created this app to explore React and to combine my love of plants with my passion for programming.
+Sprouter is an Android journaling app for plant lovers to document the growth and life of their plants. New growth! I created this app to explore React Native and to combine my love of plants with my passion for programming.
 
 
 ## Minimum Viable Product (MVP)
