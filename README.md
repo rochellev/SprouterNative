@@ -65,8 +65,10 @@ The splash screen will appear on opening the app. It will set the theme of the a
 After the splash screen, users will be routed to the home screen. This is where the app will display all of a user's plant journals. Users can quick add entries on this screen. Flexbox and ScrollView. <br>
 ![sprouter home page](assets/images/mockup/home_screen.jpg)
 
-### Plant Profile Screen
+### Plant Profile Screen ( or Component)
 Each plant will have a profile page. Users can see the full history of the plant, add more photos and notes.
+
+Current deciding how to display the details of a plant: either create a new page OR simply render a new component under the active plant card component. Thinking about state and native components.
 
 ### Settings Page
 A place for users to manage notifications and general settings. 
