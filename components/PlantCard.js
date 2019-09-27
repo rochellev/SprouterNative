@@ -7,6 +7,7 @@ import { TouchableOpacity } from 'react-native-gesture-handler';
 export default function PlantCard(props) {
   toggleAlbum = (test) => {
     console.log(test);
+
   }
   return (
     <TouchableOpacity onPress={() => this.toggleAlbum("hi")} >

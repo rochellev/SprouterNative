@@ -29,7 +29,7 @@ export default function HomeScreen() {
         <PlantCard name="Lemon Boy" imageSource={require('../assets/images/plants/lemon_flower.jpg')} plantNote="Lemon tree Bloomed!" />
         <PlantCard name="Money Boy" imageSource={require('../assets/images/plants/money_tree.jpg')} plantNote="Money Tree really growing fast" />
         <PlantCard name="Betty" imageSource={require('../assets/images/plants/white_flower.jpg')} plantNote="starting to turn a little purple" />
-        <PlantCard name="Don" imageSource={require('../assets/images/plants/lady.jpg')} plantNote="Lady still doing well" />
+        <PlantCard name="Don"imageSource={require('../assets/images/plants/lady.jpg')} plantNote="Lady still doing well" />
         </View>
       </ScrollView>
     </View>
