@@ -22,6 +22,7 @@ For Sprouter to be a useful journaling app, the following features define the MV
 * It would be ideal if users can upload pictures of their plants to go along with the text.
 * Use phone camera 
 * Use phone storage
+* Cloud storage? AWS
 * Host app, publish on Google Play Store
 * Limit image size  -- or total image sizes
 * Cost and scalability analysis
