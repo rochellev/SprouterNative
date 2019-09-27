@@ -68,7 +68,7 @@ After the splash screen, users will be routed to the home screen. This is where 
 ### Plant Profile Screen ( or Component)
 Each plant will have a profile page. Users can see the full history of the plant, add more photos and notes.
 
-Current deciding how to display the details of a plant: either create a new page OR simply render a new component under the active plant card component. Thinking about state and native components.
+Current deciding how to display the details of a plant: either create a new page OR simply render a new component under the active plant card component. Thinking about state and native components. [link](https://medium.com/netscape/component-state-vs-redux-store-1eb0c929277)
 
 ### Settings Page
 A place for users to manage notifications and general settings. 
