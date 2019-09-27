@@ -15,6 +15,8 @@ For Sprouter to be a useful journaling app, the following features define the MV
 * Users can add photos to their journal by tapping on the "plus" button.
 * Users can add notes about their plants.
 
+## Component Graph
+![component graph](assets/images/component_graph.jpg)
 
 ## Beyond MVP
 * It would be ideal if users can upload pictures of their plants to go along with the text.
