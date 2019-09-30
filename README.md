@@ -95,6 +95,7 @@ After running the app, scan the QR code displayed in the terminal with the Expo 
 
 
 ## Resources
+* Expo [image picker](https://docs.expo.io/versions/latest/sdk/imagepicker/) - provides access to system UI for selecting images and video from phones's library
 * Using [flex box](https://facebook.github.io/react-native/docs/flexbox) to manage the layouts.
 * looking into react native component [libraries](https://blog.bitsrc.io/11-react-native-component-libraries-you-should-know-in-2018-71d2a8e33312)
 * A [guide](https://www.reactnative.guide/5-project-structure-and-start-building-some-app/5.2-basic-components-and-platform-specific-code.html)
