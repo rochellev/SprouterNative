@@ -8,19 +8,18 @@ Sprouter is an Android journaling app for plant lovers to document the growth an
 
 ## Minimum Viable Product (MVP)
 For Sprouter to be a useful journaling app, the following features define the MVP.
+* The app Home screen will display all of the user's plant journals. 
 * Users can create a journal for each plant they want to track. 
 * Users can have multiple plant journals and see the notes and photos for a particular plant.
-* The app Home screen will display all of the user's plant journals. 
-* Users can add photos to their journal by tapping on the "plus" button.
 * Users can add notes about their plants.
+* Users can add photos to their journal by tapping on the "plus" button.
 
 ## Component Graph
 ![component graph](assets/images/component_graph.jpg)
 
 ## Beyond MVP
-* It would be ideal if users can upload pictures of their plants to go along with the text.
-* Use phone camera 
-* Use phone storage
+* Users can use their phone's camera to add new photos. 
+* Users can use photos saved on their phone.
 * Cloud storage? AWS
 * Host app, publish on Google Play Store
 * Limit image size  -- or total image sizes
@@ -84,7 +83,7 @@ From the project's root directory, run the following commands:
 $ git clone https://github.com/rochellev/SprouterNative.git
 $ cd  ./SprouterNative
 $ npm install
-$ npm run
+$ npm start
 ```
 
 After running the app, scan the QR code displayed in the terminal with the Expo app (Android) or the Camera app (iOS). Select `Tunnel` connection type on the Expo DevTool [localhost](http://localhost:19002/) if your device is not connected to the same network as your computer. Enjoy!
