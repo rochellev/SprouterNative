@@ -1,5 +1,5 @@
 # Sprouter
-### Rochelle Roberts | [LinkedIn](https://www.linkedin.com/in/rochelle-roberts)
+### Rochelle Roberts
 <br>
 
 ## Description
@@ -20,6 +20,7 @@ For Sprouter to be a useful journaling app, the following features define the MV
 ## Beyond MVP
 * Users can use their phone's camera to add new photos. 
 * Users can use photos saved on their phone.
+* Offline photos available 
 * Cloud storage? AWS
 * Host app, publish on Google Play Store
 * Limit image size  -- or total image sizes
@@ -36,6 +37,7 @@ For Sprouter to be a useful journaling app, the following features define the MV
 * Connect with Google Photos 
 * Add reminders
 * Create outdoor plant tag that is linked with weather API
+* Testing
 
 ## Technologies
 `MVP`
@@ -43,8 +45,8 @@ For Sprouter to be a useful journaling app, the following features define the MV
 * Redux
 * JavaScript
 * Expo
-* CSS
 * Adobe XD for UI design
+* Node.js
 <br>
 `Beyond MVP` 
 * Hosting app
@@ -56,7 +58,7 @@ For Sprouter to be a useful journaling app, the following features define the MV
 These mockups, created with Adobe XD, show the general design and flow of Sprouter. 
 
 ### Splash Screen
-The splash screen will appear on opening the app. It will set the theme of the app. <br>
+The splash screen will appear on opening the app. It will set the theme of the app. A  <br>
 ![sprouter splash page](assets/images/mockup/splash_screen.jpg)
 
 
@@ -87,6 +89,10 @@ $ npm start
 ```
 
 After running the app, scan the QR code displayed in the terminal with the Expo app (Android) or the Camera app (iOS). Select `Tunnel` connection type on the Expo DevTool [localhost](http://localhost:19002/) if your device is not connected to the same network as your computer. Enjoy!
+
+## About Rochelle Roberts
+[LinkedIn](https://www.linkedin.com/in/rochelle-roberts)
+
 
 ## Resources
 * Using [flex box](https://facebook.github.io/react-native/docs/flexbox) to manage the layouts.
