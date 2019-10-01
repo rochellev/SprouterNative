@@ -17,9 +17,9 @@ const styles = StyleSheet.create({
     width: 100,
     height: 70,
     resizeMode: 'contain',
-    marginTop: 20,
+    marginTop: 10,
     marginBottom: 25,
     marginLeft: -10,
-    paddingBottom: 5,
+    paddingBottom: 2,
   },
 });
