@@ -10,7 +10,7 @@ export default function PlantCard(props) {
   }
   return (
     <TouchableOpacity onPress={() => this.toggleAlbum("hi")} >
-      <Card title={props.name} raised='true' image={props.imageSource}>
+      <Card title={props.name} raised='true' image={props.imageSource} containerStyle={{borderRadius: 12}}>
         <Text> {props.plantNote} </Text>
         <Button
           icon={<Icon name='add-circle-outline' />}
