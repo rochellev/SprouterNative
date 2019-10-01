@@ -10,11 +10,16 @@ export default function PlantCard(props) {
   }
   return (
     <TouchableOpacity onPress={() => this.toggleAlbum("hi")} >
-    <Card title={props.name}>
+    <Card title={props.name} raised={true}containerStyle={{borderRadius: 12}}>
       <ScrollView horizontal={true}>
         <View>
         </View>
       </ScrollView>
+      <Text>{props.plantNote}</Text>
+      <Button
+          icon={<Icon name='add-circle-outline' />}
+          raised={true}
+          style={maxWidth = 1} />
     </Card>
       
     </TouchableOpacity>
