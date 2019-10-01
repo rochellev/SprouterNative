@@ -12,7 +12,7 @@ import {
 
 import { MonoText } from '../components/StyledText';
 import PlantCard from '../components/PlantCard';
-import PlantAlbum from '../components/PlantAlbum';
+
 
 export default function HomeScreen() {
   return (
