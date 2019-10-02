@@ -14,10 +14,10 @@ export default function PlantCard(props) {
       <View style={{height:200, marginVertical: 10}}>
       <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}>
       <TouchableOpacity onPress={() => this.toggleAlbum("hi")} >
-        <Image source={props.imageSource} style={styles.welcomeImage} />
+        <Image source={props.imageSource} style={styles.plantPhoto} />
         </TouchableOpacity>
-        <Image source={props.imageSource} style={styles.welcomeImage} />
-        <Image source={props.imageSource} style={styles.welcomeImage} />
+        <Image source={props.imageSource} style={styles.plantPhoto} />
+        <Image source={props.imageSource} style={styles.plantPhoto} />
         
       </ScrollView>
       </View>
@@ -31,7 +31,7 @@ export default function PlantCard(props) {
 }
 
 const styles = StyleSheet.create({
-  welcomeImage: {
+  plantPhoto: {
     width: 180,
     height: 200,
     resizeMode: 'contain',
