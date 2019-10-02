@@ -9,13 +9,16 @@ export default function PlantCard(props) {
     console.log(test);
   }
   return (
-    <TouchableOpacity onPress={() => this.toggleAlbum("hi")} >
+ 
     <Card title={props.name} raised={true} containerStyle={{borderRadius: 12}}>
-      <View style={{height:150, marginTop: 20}}>
+      <View style={{height:200, marginVertical: 10}}>
       <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}>
+      <TouchableOpacity onPress={() => this.toggleAlbum("hi")} >
+        <Image source={props.imageSource} style={styles.welcomeImage} />
+        </TouchableOpacity>
         <Image source={props.imageSource} style={styles.welcomeImage} />
         <Image source={props.imageSource} style={styles.welcomeImage} />
-        <Image source={props.imageSource} style={styles.welcomeImage} />
+        
       </ScrollView>
       </View>
       <Text style={{marginBottom: 5}}>{props.plantNote}</Text>
@@ -24,17 +27,16 @@ export default function PlantCard(props) {
           raised={true}
           style={maxWidth = 1} />
     </Card>
-      
-    </TouchableOpacity>
   );
 }
 
 const styles = StyleSheet.create({
   welcomeImage: {
-    width: 150,
-    height: 120,
+    width: 180,
+    height: 200,
     resizeMode: 'contain',
     marginTop: 3,
-    marginRight: -30,
+    marginBottom: 3,
+    marginLeft: -5,
   },
 })
