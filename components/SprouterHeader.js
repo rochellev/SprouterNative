@@ -8,7 +8,7 @@ export default function SprouterHeader(){
     centerComponent={<Image
       source={require('../assets/images/plant.png')} style={styles.welcomeImage}
       />}
-    containerStyle={{justifyContent: 'space-around', paddingVertical: 15, marginVertical: 25}} />
+    containerStyle={{justifyContent: 'space-around', paddingTop: 15, marginTop: 25}} />
   )
 }
 
