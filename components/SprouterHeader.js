@@ -8,7 +8,7 @@ export default function SprouterHeader(){
     centerComponent={<Image
       source={require('../assets/images/plant.png')} style={styles.welcomeImage}
       />}
-    containerStyle={{justifyContent: 'space-around', paddingVertical: 15, marginVertical: 25}} />
+    containerStyle={{ paddingTop: 10}} />
   )
 }
 
@@ -17,8 +17,7 @@ const styles = StyleSheet.create({
     width: 100,
     height: 70,
     resizeMode: 'contain',
-    marginTop: 10,
-    marginBottom: 25,
+    
     marginLeft: -10,
     paddingBottom: 2,
   },
