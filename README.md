@@ -104,4 +104,11 @@ I created this app to explore React Native and to combine my love of plants with
 * [scroll view](https://facebook.github.io/react-native/docs/scrollview.html) to render the list  
 * [Layout Props](https://facebook.github.io/react-native/docs/layout-props)
 
- onPress={ () => this.props.navigation.navigate('Camera')} 
+
+
+## code i took out --- will delete before publishing
+<PlantCard name="Don" imageSource={require('../assets/images/plants/lady.jpg')} plantNote="Lady still doing well" />
+          <PlantCard name="Orchid Sprout" imageSource={require('../assets/images/plants/orchid-small.jpg')} plantNote="brand new growth!" />
+          <PlantCard name="Orchid Leaf" imageSource={require('../assets/images/plants/orchid-leaf.jpg')} plantNote="leaf looking strong" />
+
+onPress={ () => this.props.navigation.navigate('Camera')} 
