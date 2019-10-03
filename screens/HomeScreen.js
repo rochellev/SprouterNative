@@ -14,7 +14,6 @@ import {
 import { MonoText } from '../components/StyledText';
 import PlantCard from '../components/PlantCard';
 
-
 export default function HomeScreen() {
   return (
     <View style={styles.container}>
@@ -22,13 +21,10 @@ export default function HomeScreen() {
         scrollEventThrottle={16}
         style={styles.container}
         contentContainerStyle={styles.contentContainer}>
-        <View>
+        <View style={{flex: 1}}>
           <PlantCard name="Lemon Boy" imageSource={require('../assets/images/plants/lemon_flower.jpg')} plantNote="Lemon tree Bloomed!" />
           <PlantCard name="Money Boy" imageSource={require('../assets/images/plants/money_tree.jpg')} plantNote="Money Tree really growing fast" />
           <PlantCard name="Betty" imageSource={require('../assets/images/plants/white_flower.jpg')} plantNote="starting to turn a little purple" />
-          <PlantCard name="Don" imageSource={require('../assets/images/plants/lady.jpg')} plantNote="Lady still doing well" />
-          <PlantCard name="Orchid Sprout" imageSource={require('../assets/images/plants/orchid-small.jpg')} plantNote="brand new growth!" />
-          <PlantCard name="Orchid Leaf" imageSource={require('../assets/images/plants/orchid-leaf.jpg')} plantNote="leaf looking strong" />
         </View>
       </ScrollView>
     </View>
