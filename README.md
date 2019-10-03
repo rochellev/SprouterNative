@@ -111,4 +111,4 @@ I created this app to explore React Native and to combine my love of plants with
           <PlantCard name="Orchid Sprout" imageSource={require('../assets/images/plants/orchid-small.jpg')} plantNote="brand new growth!" />
           <PlantCard name="Orchid Leaf" imageSource={require('../assets/images/plants/orchid-leaf.jpg')} plantNote="leaf looking strong" />
 
-onPress={ () => this.props.navigation.navigate('Camera')} 
+onPress={ () => this.props.navigation.navigate('Camera')}
