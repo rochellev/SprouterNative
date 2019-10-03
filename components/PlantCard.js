@@ -1,8 +1,8 @@
 import React from 'react';
-import { Text, View, Image, StyleSheet } from 'react-native';
+import { Text, View, Image, StyleSheet, ScrollView } from 'react-native';
 import { Button, Icon, Card } from 'react-native-elements';
 import { setRecoveryProps } from 'expo/build/ErrorRecovery/ErrorRecovery';
-import { TouchableOpacity, ScrollView } from 'react-native-gesture-handler';
+import { TouchableOpacity  } from 'react-native-gesture-handler';
 
 export default function PlantCard(props) {
   toggleAlbum = (test) => {
@@ -18,7 +18,6 @@ export default function PlantCard(props) {
         </TouchableOpacity>
         <Image source={props.imageSource} style={styles.plantPhoto} />
         <Image source={props.imageSource} style={styles.plantPhoto} />
-        
       </ScrollView>
       </View>
       <Text style={{marginBottom: 5}}>{props.plantNote}</Text>
