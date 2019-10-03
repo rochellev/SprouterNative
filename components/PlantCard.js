@@ -9,7 +9,6 @@ export default function PlantCard(props) {
     console.log(test);
   }
   return (
- 
     <Card title={props.name} raised={true} containerStyle={{borderRadius: 12}}>
       <View style={{height:200, marginVertical: 10}}>
       <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}>
