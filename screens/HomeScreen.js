@@ -6,6 +6,7 @@ import {
   ScrollView,
   StyleSheet,
   Text,
+  Button,
   TouchableOpacity,
   View,
   SafeAreaView,
@@ -14,9 +15,11 @@ import {
 import { MonoText } from '../components/StyledText';
 import PlantCard from '../components/PlantCard';
 
-export default function HomeScreen() {
+export default class HomeScreen extends React.Component {
+  render(){
   return (
     <View style={styles.container}>
+      <Button title="Camera" onPress={() => this.props.navigation.navigate('Camera')} />
       <ScrollView
         scrollEventThrottle={16}
         style={styles.container}
@@ -29,6 +32,7 @@ export default function HomeScreen() {
       </ScrollView>
     </View>
   );
+}
 }
 
 HomeScreen.navigationOptions = {

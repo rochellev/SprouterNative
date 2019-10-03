@@ -103,6 +103,7 @@ I created this app to explore React Native and to combine my love of plants with
 * [React Native Elements](https://react-native-training.github.io/react-native-elements/docs/getting_started.html) offers a library of React Native components.
 * [scroll view](https://facebook.github.io/react-native/docs/scrollview.html) to render the list  
 * [Layout Props](https://facebook.github.io/react-native/docs/layout-props)
+* [React Navigation](https://reactnavigation.org/docs/en/navigating.html)
 
 
 

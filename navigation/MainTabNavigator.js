@@ -15,6 +15,10 @@ const config = Platform.select({
 const HomeStack = createStackNavigator(
   {
     Home: HomeScreen,
+    Camera: CameraScreen,
+  },
+  {
+    initialRouteName: 'Home',
   },
   config
 );
