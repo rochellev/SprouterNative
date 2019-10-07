@@ -21,6 +21,7 @@ For Sprouter to be a useful journaling app, the following features define the MV
 ```javascript
 {
   
+  
 }
 ```
 
