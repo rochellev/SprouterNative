@@ -12,7 +12,7 @@ const { history, store } = configureStore();
 
 const App = () => {
   return (
-    <SafeAreaView>
+    <SafeAreaView style={styles.container}>
       <SprouterHeader />
       <View style={styles.container}>
         <Provider store={store} >
@@ -25,8 +25,7 @@ const App = () => {
 
 const styles = StyleSheet.create({
   container: {
-    padding: 10,
-    backgroundColor: '#ffff',
+    flex: 1,
   },
 });
 
