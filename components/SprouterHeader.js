@@ -1,6 +1,7 @@
 import React from 'react';
 import { Header } from 'react-native-elements';
 import {Image, StyleSheet} from 'react-native';
+
 export default function SprouterHeader(){
   return(
     <Header
@@ -8,7 +9,7 @@ export default function SprouterHeader(){
     centerComponent={<Image
       source={require('../assets/images/plant.png')} style={styles.welcomeImage}
       />}
-    containerStyle={{ paddingTop: 10}} />
+    containerStyle={{ marginTop: 10}} />
   )
 }
 

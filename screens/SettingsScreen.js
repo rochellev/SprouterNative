@@ -1,14 +1,26 @@
+import * as WebBrowser from 'expo-web-browser';
 import React from 'react';
-import { ExpoConfigView } from '@expo/samples';
+import {
+  ScrollView,
+  StyleSheet,
+  Text,
+  Button,
+  TouchableOpacity,
+  View,
+} from 'react-native';
 
-export default function SettingsScreen() {
-  /**
-   * Go ahead and delete ExpoConfigView and replace it with your content;
-   * we just wanted to give you a quick view of your config.
-   */
-  return <ExpoConfigView />;
-}
+import { MonoText } from '../components/StyledText';
+import PlantCard from '../components/PlantCard';
 
-SettingsScreen.navigationOptions = {
-  title: 'app.json',
-};
+const SettingsScreen = ({ history }) => (
+  <View>
+    <Text>Hi Settings buddy</Text>
+    <Button onPress={() => {
+      history.push({
+        pathname:'/',
+      });
+    }} title="Go Home" />
+  </View>
+);
+
+export default SettingsScreen;
