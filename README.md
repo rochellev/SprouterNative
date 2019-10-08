@@ -20,65 +20,32 @@ For Sprouter to be a useful journaling app, the following features define the MV
 ## State Shape
 ```javascript
 {
-ui: {
-  currentScreen: "HomeScreen",
-    fullScreenPhoto : false,
-},
-appData: {
-  albums: {
-    byId: {
-      "album1": {
-        id: "album1",
-          name : "Money Tree",
-            entries : [
-              "entry1",
-              "entry2",
-              "entry3"
-            ]
-      },
-      "album2": {
-        id: "album2",
-          name : "Lemon Tree",
-            entries : [
-              "entry4",
-              "entry5",
-              "entry6"
-            ]
-      }
-    },
-    allIds: [
-      "album1",
-      "album2"
-    ]
+  ui : {
+    currentScreen: "homeScreen",
+    fullScreenPhoto: "false",
+    cameraMode: "false"
   },
-  entries: {
-    byId: {
-      "entry1": {
-        id: "entry1",
-          photoUri : "mypic.jpeg"
-        note: "new growth!",
-          date : "September 30, 2019"
-      },
-      "entry2": {
-        id: "entry2",
-          photoUri : "myplantpic.jpeg"
-        note: "gave him some water",
-          date : "August 1, 2019"
-      },
-      "entry3": {
-        id: "entry3",
-          photoUri : "mypic3.jpeg"
-        note: "looking good",
-          date : "August 2, 2019"
-      },
-    }
-  },
-  settings: {
+  userSettings: {
     userName: "Rochelle",
-      notifications: "daily",
-        colorTheme: "light"
-  }
-}
+    notification: "true",
+    cameraPermission: "true",
+    storagePermission: "true",
+  },
+  plantCards: [
+    {
+      name: "Lemon Tree",
+      photos: [
+        "photo1.jpeg",
+        "photo2.jpeg"
+      ]
+    },
+    {
+      name: "Money Tree",
+      photos: [
+        "photo3.jpeg"
+      ]
+    }
+  ]  
 }
 ```
 
@@ -168,9 +135,4 @@ I created this app to explore React Native and to combine my love of plants with
 * [React Native Elements](https://react-native-training.github.io/react-native-elements/docs/getting_started.html) offers a library of React Native components.
 * [scroll view](https://facebook.github.io/react-native/docs/scrollview.html) to render the list  
 * [Layout Props](https://facebook.github.io/react-native/docs/layout-props)
-
-
-## code i took out --- will delete before publishing
-<PlantCard name="Don" imageSource={require('../assets/images/plants/lady.jpg')} plantNote="Lady still doing well" />
-          <PlantCard name="Orchid Sprout" imageSource={require('../assets/images/plants/orchid-small.jpg')} plantNote="brand new growth!" />
-          <PlantCard name="Orchid Leaf" imageSource={require('../assets/images/plants/orchid-leaf.jpg')} plantNote="leaf looking strong" />
+* [React Navigation](https://reactnavigation.org/docs/en/navigating.html)
