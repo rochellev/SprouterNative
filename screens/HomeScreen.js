@@ -11,6 +11,7 @@ import {
 
 import { MonoText } from '../components/StyledText';
 import PlantCard from '../components/PlantCard';
+import SettingsButton from '../components/SettingsButton';
 
 const plants = [
   {
@@ -40,12 +41,8 @@ const HomeScreen = ({ history }) => {
 const cards = plants.map((plant, idx) => <PlantCard key={idx} name={plant.name} imageSource={plant.image} plantNote={plant.note} />, []);
 
   return (
-  <View  >
-    <Button onPress={() => {
-      history.push({
-        pathname: '/settings',
-      });
-    }} title="Go to settings" />
+  <View>
+    <SettingsButton history={history} />
     <ScrollView
       scrollEventThrottle={16} >
         {cards}
