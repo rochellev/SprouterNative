@@ -12,7 +12,34 @@ import {
 import { MonoText } from '../components/StyledText';
 import PlantCard from '../components/PlantCard';
 
-const HomeScreen = ({ history }) => (
+const plants = [
+  {
+    name:"Lemon Boy",
+    image: require("../assets/images/plants/lemon_flower.jpg"),
+    note:"Lemon tree bloomed!!!!"
+  },
+  {
+    name:"Money Boy",
+    image: require("../assets/images/plants/money_tree.jpg"),
+    note:"Money Tree really growing fast"
+  },
+  {
+    name:"Betty",
+    image: require("../assets/images/plants/white_flower.jpg"),
+    note:"Starting to turn a little purple"
+  },
+  {
+    name:"Don",
+    image: require("../assets/images/plants/lady.jpg"),
+    note:"Lady still doing well"
+  }
+]
+
+const HomeScreen = ({ history }) => {
+  
+const cards = plants.map((plant, idx) => <PlantCard key={idx} name={plant.name} imageSource={plant.image} plantNote={plant.note} />, []);
+
+  return (
   <View  >
     <Button onPress={() => {
       history.push({
@@ -21,15 +48,10 @@ const HomeScreen = ({ history }) => (
     }} title="Go to settings" />
     <ScrollView
       scrollEventThrottle={16} >
-      <View >
-        <PlantCard name="Lemon Boy" imageSource={require('../assets/images/plants/lemon_flower.jpg')} plantNote="Lemon tree Bloomed!" />
-        <PlantCard name="Money Boy" imageSource={require('../assets/images/plants/money_tree.jpg')} plantNote="Money Tree really growing fast" />
-        <PlantCard name="Betty" imageSource={require('../assets/images/plants/white_flower.jpg')} plantNote="starting to turn a little purple" />
-        <PlantCard name="Don" imageSource={require('../assets/images/plants/lady.jpg')} plantNote="Lady still doing well" />
-      </View>
+        {cards}
     </ScrollView>
   </View>
-);
+)};
 
 const styles = StyleSheet.create({
   container: {

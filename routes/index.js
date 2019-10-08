@@ -5,12 +5,12 @@ import HomeScreen from '../screens/HomeScreen'
 import SettingsScreen from '../screens/SettingsScreen'; 
 
 const Router = ({history}) => (
-  <NativeRouter>
+
     <ConnectedRouter history={history}>
       <Route path="/" component={HomeScreen} exact={true} />
       <Route path="/settings" component={SettingsScreen} />
     </ConnectedRouter>
-  </NativeRouter>
+
 );
 
 export default Router;
