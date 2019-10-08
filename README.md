@@ -20,8 +20,32 @@ For Sprouter to be a useful journaling app, the following features define the MV
 ## State Shape
 ```javascript
 {
-  
-  
+  ui : {
+    currentScreen: "homeScreen",
+    fullScreenPhoto: "false",
+    cameraMode: "false"
+  },
+  userSettings: {
+    userName: "Rochelle",
+    notification: "true",
+    cameraPermission: "true",
+    storagePermission: "true",
+  },
+  plantCards: [
+    {
+      name: "Lemon Tree",
+      photos: [
+        "photo1.jpeg",
+        "photo2.jpeg"
+      ]
+    },
+    {
+      name: "Money Tree",
+      photos: [
+        "photo3.jpeg"
+      ]
+    }
+  ]
 }
 ```
 
