@@ -45,7 +45,7 @@ For Sprouter to be a useful journaling app, the following features define the MV
         "photo3.jpeg"
       ]
     }
-  ]
+  ]  
 }
 ```
 
