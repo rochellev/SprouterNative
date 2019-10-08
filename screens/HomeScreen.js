@@ -11,44 +11,48 @@ import {
 
 import { MonoText } from '../components/StyledText';
 import PlantCard from '../components/PlantCard';
-import SettingsButton from '../components/SettingsButton';
+import { ToSettingsButton } from '../components/NavigationButtons';
+
+import { ToCameraButton } from '../components/NavigationButtons';
 
 const plants = [
   {
-    name:"Lemon Boy",
+    name: "Lemon Boy",
     image: require("../assets/images/plants/lemon_flower.jpg"),
-    note:"Lemon tree bloomed!!!!"
+    note: "Lemon tree bloomed!!!!"
   },
   {
-    name:"Money Boy",
+    name: "Money Boy",
     image: require("../assets/images/plants/money_tree.jpg"),
-    note:"Money Tree really growing fast"
+    note: "Money Tree really growing fast"
   },
   {
-    name:"Betty",
+    name: "Betty",
     image: require("../assets/images/plants/white_flower.jpg"),
-    note:"Starting to turn a little purple"
+    note: "Starting to turn a little purple"
   },
   {
-    name:"Don",
+    name: "Don",
     image: require("../assets/images/plants/lady.jpg"),
-    note:"Lady still doing well"
+    note: "Lady still doing well"
   }
 ]
 
 const HomeScreen = ({ history }) => {
-  
-const cards = plants.map((plant, idx) => <PlantCard key={idx} name={plant.name} imageSource={plant.image} plantNote={plant.note} />, []);
+
+  const cards = plants.map((plant, idx) => <PlantCard key={idx} name={plant.name} imageSource={plant.image} plantNote={plant.note} />, []);
 
   return (
-  <View>
-    <SettingsButton history={history} />
-    <ScrollView
-      scrollEventThrottle={16} >
+    <View>
+      <ToSettingsButton history={history} />
+      <ToCameraButton history={history} />
+      <ScrollView
+        scrollEventThrottle={16} >
         {cards}
-    </ScrollView>
-  </View>
-)};
+      </ScrollView>
+    </View>
+  )
+};
 
 const styles = StyleSheet.create({
   container: {

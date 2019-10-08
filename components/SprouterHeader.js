@@ -1,7 +1,6 @@
 import React from 'react';
 import { Header } from 'react-native-elements';
 import { Image, StyleSheet } from 'react-native';
-import SettingsButton from './SettingsButton';
 
 export default function SprouterHeader({history}) {
   return (

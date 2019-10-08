@@ -4,6 +4,7 @@ import * as Permissions from 'expo-permissions';
 import { Camera } from 'expo-camera';
 import {Container, Content, Header, Item, Icon, Input, Button} from 'native-base';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
+import {ToHomeButton} from '../components/NavigationButtons';
 
 export default class CameraScreen extends React.Component {
   state = {

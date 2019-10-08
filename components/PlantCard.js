@@ -3,6 +3,7 @@ import { Text, View, Image, StyleSheet, ScrollView } from 'react-native';
 import { Button, Icon, Card } from 'react-native-elements';
 import { setRecoveryProps } from 'expo/build/ErrorRecovery/ErrorRecovery';
 import { TouchableOpacity  } from 'react-native-gesture-handler';
+import {CameraButton} from './NavigationButtons';
 
 export default function PlantCard(props) {
   toggleAlbum = (test) => {
@@ -20,10 +21,6 @@ export default function PlantCard(props) {
       </ScrollView>
       </View>
       <Text style={{marginBottom: 5}}>{props.plantNote}</Text>
-      <Button
-          icon={<Icon name='add-circle-outline' />}
-          raised={true}
-          style={maxWidth = 1} />
     </Card>
   );
 }
