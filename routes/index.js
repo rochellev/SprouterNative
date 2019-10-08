@@ -4,12 +4,8 @@ import {NativeRouter, Route} from 'react-router-native';
 import HomeScreen from '../screens/HomeScreen'
 import SettingsScreen from '../screens/SettingsScreen';
 import CameraScreen from '../screens/CameraScreen';
+import {routes} from '../constants/AppRoutes'
 
-const routes = {
-  HOME : '/',
-  SETTINGS : '/settings',
-  CAMERA : '/camera'
-}
 
 const Router = ({history}) => { 
 return(
