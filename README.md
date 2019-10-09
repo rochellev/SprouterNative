@@ -80,7 +80,8 @@ For Sprouter to be a useful journaling app, the following features define the MV
 * Adobe XD for UI design
 * Node.js
 <br>
-`Beyond MVP` 
+`Beyond MVP`
+ 
 * Hosting app
 * User Authentication
 * Identity
@@ -136,3 +137,4 @@ I created this app to explore React Native and to combine my love of plants with
 * [scroll view](https://facebook.github.io/react-native/docs/scrollview.html) to render the list  
 * [Layout Props](https://facebook.github.io/react-native/docs/layout-props)
 * [React Navigation](https://reactnavigation.org/docs/en/navigating.html)
+* Header have buttons
