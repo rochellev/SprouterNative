@@ -13,9 +13,9 @@ const { history, store } = configureStore();
 const App = () => {
   return (
     <SafeAreaView style={styles.container}>
-      <SprouterHeader />
       <View style={styles.container}>
         <Provider store={store} >
+        <SprouterHeader />
           <Router history={history} />
         </Provider>
       </View>
