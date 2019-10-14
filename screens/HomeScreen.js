@@ -1,5 +1,5 @@
 import * as WebBrowser from 'expo-web-browser';
-import React from 'react';
+import * as React from 'react';
 import {
   ScrollView,
   StyleSheet,
@@ -37,23 +37,20 @@ const plants = [
     note: "Lady still doing well"
   }
 ]
+const cards = plants.map((plant, idx) => <PlantCard key={idx} name={plant.name} imageSource={plant.image} plantNote={plant.note} />, []);
 
-const HomeScreen = ({ history }) => {
-
-  const cards = plants.map((plant, idx) => <PlantCard key={idx} name={plant.name} imageSource={plant.image} plantNote={plant.note} />, []);
-
+class HomeScreen extends React.Component {
+  render(){
   return (
     <View>
-      <ToSettingsButton history={history} />
-      <ToCameraButton history={history} />
       <ScrollView
         scrollEventThrottle={16} >
         {cards}
       </ScrollView>
     </View>
-  )
-};
-
+  );
+}
+}
 const styles = StyleSheet.create({
   container: {
     flex: 1,
