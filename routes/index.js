@@ -6,10 +6,12 @@ import SettingsScreen from '../screens/SettingsScreen';
 import CameraScreen from '../screens/CameraScreen';
 import {routes} from '../constants/AppRoutes'
 
+// a header with route components inside ?
 
 const Router = ({history}) => { 
 return(
     <ConnectedRouter history={history}>
+
       <Route path={routes.HOME} component={HomeScreen} exact={true} />
       <Route path={routes.SETTINGS} component={SettingsScreen} />
       <Route path={routes.CAMERA} component={CameraScreen} />
